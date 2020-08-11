@@ -10,9 +10,7 @@
         "prettier/@typescript-eslint",
         "plugin:prettier/recommended"
     ],
-    "rules": {
-        "no-console": "error"
-    },
+    "rules": {},
     "env": {
         "jest": true
     }

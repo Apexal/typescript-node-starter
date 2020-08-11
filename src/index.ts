@@ -1,2 +1,1 @@
-const message = 12
-export default message
+export default 12
