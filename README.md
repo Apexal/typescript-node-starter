@@ -1,2 +1,1 @@
-# coursework-api
-Experimental coursework microservice...
+# TypeScript Node Starter
