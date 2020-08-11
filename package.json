@@ -1,0 +1,35 @@
+{
+  "name": "coursework-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental coursework API",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/late-project/coursework-api.git"
+  },
+  "keywords": [
+    "school"
+  ],
+  "author": "Frank Matranga <frank@matranga.family>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/late-project/coursework-api/issues"
+  },
+  "homepage": "https://github.com/late-project/coursework-api#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  }
+}
