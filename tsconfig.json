@@ -7,8 +7,13 @@
         "strict": true,
         "noImplicitAny": true,
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "dist",
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
 }
