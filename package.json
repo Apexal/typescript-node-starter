@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "Experimental coursework API",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint . --ext .js,.ts",
-    "build": "tsc",
+    "lint": "tsc --noEmit && eslint . --ext .js,.ts --quiet --fix",
+    "build": "npm run lint && npm run build-ts",
+    "build-ts": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
