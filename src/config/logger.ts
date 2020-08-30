@@ -1,6 +1,3 @@
-import dotenv from 'dotenv'
-dotenv.config()
-
 import { createLogger, transports, format } from 'winston'
 
 const logger = createLogger({

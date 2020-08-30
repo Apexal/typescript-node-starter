@@ -1,7 +1,4 @@
-import dotenv from 'dotenv'
-dotenv.config()
+import './config/secrets'
 import logger from './config/logger'
 
-logger.info('Halloooo')
-
-export default 12
+logger.info('Running project! Replace me with real code.')
