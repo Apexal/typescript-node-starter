@@ -1,8 +1,8 @@
 {
-  "name": "coursework-api",
+  "name": "typescript-node-starter",
   "version": "0.1.0",
   "private": true,
-  "description": "Experimental coursework API",
+  "description": "Starter for a Node project using TypeScript.",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -22,9 +22,9 @@
   "author": "Frank Matranga <frank@matranga.family>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/late-project/coursework-api/issues"
+    "url": "https://github.com/Apexal/typescript-node-starter/issues"
   },
-  "homepage": "https://github.com/late-project/coursework-api#readme",
+  "homepage": "https://github.com/Apexal/typescript-node-starter#readme",
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "@types/node": "^14.0.27",
