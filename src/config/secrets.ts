@@ -1,8 +1,7 @@
-import dotenv from 'dotenv'
+import 'dotenv/config'
 import assert from 'assert'
-dotenv.config()
 
-const envKeys = <const>[] // Add keys like 'PORT', 'SECRET', 'DATABASE_URL', etc.
+const envKeys = <const>['MESSAGE'] // Add keys like 'PORT', 'SECRET', 'DATABASE_URL', etc.
 
 for (const envKey of envKeys) {
   assert(
